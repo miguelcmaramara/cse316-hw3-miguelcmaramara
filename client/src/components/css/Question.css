@@ -1,0 +1,44 @@
+/**
+* General spacing
+*/
+.question{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px dotted grey;
+    /* border: 2px dotted grey; */
+}
+
+.question__content__box{
+    padding: 10px 30px 20px 20px
+}
+
+.question__stats{
+    width:20%;
+}
+
+.question__proper{
+    width:60%;
+}
+
+.question__meta{
+    width:20%;
+    text-align: end;
+}
+
+/**
+* Question stying
+*/
+.question__tag{
+    padding: 0 10px 0 10px;
+    border-radius: 20px;
+    background-color: darkgrey;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-size: smaller;
+}
+
+.question__title{
+    color: #0281e8;
+    text-decoration: underline;
+}

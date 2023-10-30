@@ -1,0 +1,50 @@
+.banner{
+    padding: 0 3% 0 3%;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: lightgray;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.title{
+    flex: 1 3;
+    text-align: center;
+}
+
+.banner__item{
+    padding: 22px 0;
+    flex: .25 1;
+    height: 100%;
+    text-align: center;
+    /* justify-items: center; */
+}
+
+
+.banner__item:hover{
+    background-color: darkgrey;
+}
+
+.banner__item--selected{
+    background-color: #0281e8;
+}
+
+.search{
+    flex: 1 2;
+    text-align: end;
+    /* justify-content: flex-end; */
+    /* display: flexbox;
+    flex-direction: row;
+    justify-items: flex-end; */
+    /* justify-items: end; */
+}
+
+
+.search__button{
+    /* display: block; */
+}

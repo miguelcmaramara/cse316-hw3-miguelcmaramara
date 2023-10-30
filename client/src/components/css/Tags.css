@@ -1,0 +1,21 @@
+.view__tags{
+    padding: 0 20% 10% 20%;
+
+}
+
+.tag__row{
+    margin: 5%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tag__box{
+    padding: 20px;
+    text-align: center;
+    border: solid 2px black;
+}
+
+.tag__box h3{
+    color: #0281e8;
+    text-decoration: underline;
+}

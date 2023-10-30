@@ -1,0 +1,78 @@
+/* Add CSS stylesheet */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+button {
+    background-color: #165A92;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    font-size: large;
+}
+
+h2{
+    font-weight: 400;
+}
+
+h3{
+    font-weight: 600;
+}
+
+textarea{
+    width: 100%;
+}
+
+.show{
+    display:block;
+}
+
+.hide{
+    display: hide;
+}
+
+
+.main{
+    width: 100%;
+    position: absolute;
+    top:8%;
+}
+
+.header{
+    padding: 40px 50px 40px 50px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.view__questions{
+    /* display:block; */
+}
+
+.button__wrapper{
+    /* display:block; */
+    display: flex;
+    justify-content: center;
+    padding: 2% 0 0 0;
+}
+
+.post{
+    /* display:block; */
+    padding: 50px 20%  0 20%;
+}
+
+.post__question{
+    padding: 10px 0 10px 0;
+}
+
+.post__desc{
+    /* display: block; */
+    margin: 5px 0 5px 0;
+    font-weight: 100;
+}

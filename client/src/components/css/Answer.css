@@ -1,0 +1,47 @@
+
+/**
+* General spacing
+*/
+.topic{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px dotted grey;
+    /* border: 2px dotted grey; */
+}
+
+.topic__content__box{
+    padding: 10px 30px 20px 20px
+}
+
+.topic__stats{
+    width:20%;
+}
+
+.topic__proper{
+    width:60%;
+}
+
+.topic__meta{
+    width:20%;
+    text-align: end;
+}
+
+.answer{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px dotted grey;
+    padding: 0 0 0 40px
+    /* border: 2px dotted grey; */
+}
+
+.answer__content__box{
+    padding: 10px 30px 20px 20px
+}
+.answer__proper{
+    width:80%;
+}
+
+.answer__meta{
+    width:20%;
+    text-align: end;
+}
